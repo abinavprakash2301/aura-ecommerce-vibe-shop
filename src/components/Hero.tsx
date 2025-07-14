@@ -27,12 +27,12 @@ export const Hero = () => {
               From everyday essentials to statement pieces.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="bg-white text-purple-900 hover:bg-gray-100 text-lg px-8 py-3">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+              <Button size="lg" className="bg-white text-purple-900 hover:bg-gray-100 text-lg px-8 py-3 w-full sm:w-auto">
                 Shop Now
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-purple-900 text-lg px-8 py-3">
+              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-900 text-lg px-8 py-3 w-full sm:w-auto bg-transparent backdrop-blur-sm">
                 View Collections
               </Button>
             </div>
